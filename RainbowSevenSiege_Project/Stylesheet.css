@@ -1,0 +1,392 @@
+body
+{
+    background-image: url("Assets/background.jpg");
+    background-size: cover;
+    margin: 0 0 ;
+    padding: 0 0;
+    position: relative;
+    
+}
+
+body, html
+{
+    height: 100%;
+    margin: 0;
+}
+
+div.header
+{
+    background-color: black;
+    margin: 0;
+    border: black;
+    padding: 5px;
+    position: sticky;
+    
+
+}
+
+.footer
+{
+    background-color: black;
+    margin: 0 0;
+    background-position: bottom;
+    position: absolute;
+    width: 100%;
+    padding-bottom: 10px;
+    bottom: 0 px;
+    text-align: center;
+}
+
+h3
+{
+    color: whitesmoke;
+    text-align: center;
+}
+
+h1
+{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.medsos
+{
+    display: block;
+    
+}
+
+.logomedsos
+{
+    height: 40px;
+    width: 40px; 
+}
+
+.logomedsos:hover
+{
+    opacity: 70%;
+}
+
+li
+{
+    display: inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke;
+    font-size: 35px;
+}
+
+.gambarUbipost
+{
+    width: 50px;
+    height: 50px;
+}
+
+.logoGame
+{
+    width: 50px;
+    height: 50px;
+}
+
+li.right img.gambarRsiege
+{
+    float: right;
+    width: 180px;
+    height: 50px;
+}
+
+img.gambarPanah
+{
+    width: 30px;
+    height: 20px;
+}
+
+ul
+{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    list-style: none;
+    position: sticky; 
+}
+
+ul li
+{
+    position: relative;
+}
+
+ul li a 
+{
+    text-decoration: none;
+    display: block;
+}
+
+ul .DropdownMenu .DropdownList
+{
+    list-style: none;
+    display: none;
+    text-align: right;
+}
+
+ul .DropdownMenu .gambarPanah:hover
+{
+    opacity: 80%;
+    cursor: pointer;
+}
+
+ul li:hover .DropdownList 
+{
+    display: inline;
+    text-align: center;
+    background-color: rgb(114, 114, 122);
+}
+
+.DropdownList a
+{
+    font-size: 30px;
+    color: lavender;
+}
+
+.DropdownList a:hover
+{
+    font-size: 30px;
+    color: orange;
+    background-color: gray;
+}
+
+.InnerSlider
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.InnerSlider img
+{
+    display: none;
+}
+
+.InnerSlider img.CurrentImg
+{
+    display: inline-block;
+}
+
+.OuterSlider
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.CurrentImg
+{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 1200px;
+    height: 400px;
+    
+}
+
+.PrevImg
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    position: relative;
+    
+}
+
+.PrevImg:hover, .NextImg:hover
+{
+    opacity: 70%;
+    cursor: pointer;
+}
+
+#Errorlbl
+{
+    color: red;
+}
+
+.NextImg
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    position: relative;
+   
+}
+
+.News
+{
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.News img
+{
+    width: 700px;
+    height: 500px;
+      
+}
+
+h1.title
+{
+    color: rgb(221, 155, 11);
+}
+
+.PreOrder-Content
+{
+    border-radius: 20px;
+    background-color: rgb(15, 15, 216);
+    text-align: center;
+    height: 500px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+}
+
+.Maps-Content
+{
+    text-align: center;
+}
+
+.Maps-Content img
+{
+    height: 150px;
+    width: 300px;
+}
+
+.Operator-Content
+{
+    text-align: center;
+    border: 20px 20px;
+}
+
+.Operator-Content img
+{
+    height: 300px;
+    width: 150px;
+}
+
+.Operator-Content img:hover
+{
+    height: 350px;
+    width: 200px;
+    transition-duration: 0.2s;
+}
+
+.Maps-Content img:hover
+{
+    height: 200px;
+    width: 350px;
+    transition-duration: 0.2s;
+}
+
+.PreOrder-Content .Btn-Styling
+{
+    background-color: transparent;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid rgb(243, 120, 20);
+    color: whitesmoke;
+    transition-duration: 0.5s;
+    padding: 11px 25px;
+}
+
+.Operator-Content .Btn-Styling
+{
+    background-color: transparent;
+    color: white;
+    padding: 15px 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border: 1px solid rgb(34, 34, 219);
+}
+
+.Operator-Content .Btn-Styling:hover
+{
+    background-color: rgb(34, 34, 219);
+}
+
+.PreOrder-Content .Btn-Styling:hover
+{
+    background-color: rgb(219, 117, 34);
+}
+
+.Quarantine-Content
+{
+    text-align: center;  
+}
+
+.Quarantine-Content h1
+{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.Header-Img
+{
+    width: 100%;
+    height: 800px;
+}
+
+.info1
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.Quarantine-Img
+{
+    width: 700px;
+    height: 400px;
+}
+
+.desc h2
+{
+    color: rgb(245, 241, 9);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.desc h3
+{
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 800px)
+{
+    .OuterSlider
+    {
+       display:inline-block;
+    }
+
+    h1
+    {
+        color: rgb(221, 155, 11);
+    }
+
+    .CurrentImg
+    {
+        width: 300px;
+        height: 100px;
+    }
+
+    
+}
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PreOrder</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li><img src="Assets/ubipost logo white.png" alt="logoPerusahaan" class="gambarUbipost"></li>
+            <li>Ubipost</li>
+            <li class="DropdownMenu">
+                <img src="Assets/arrow white.png" alt="panah" class="gambarPanah">
+                <div class="DropdownList">
+                    <a href="Home.html">Home</a>
+                    <a href="Operator.html">Operator</a>
+                    <a href="Maps.html">Maps</a>
+                    <a href="Quarantine.html">Quarantine</a>
+                    <a href="PreOrder.html">Pre-Order Now</a>
+                </div>
+            </li>
+            <li class="right"><img src="Assets/rainbowseven logo white.png" alt="logoGame" class="gambarRsiege"></li>
+        </ul>
+    </div>
+    <br>
+    <div class="PreOrder-Content">
+        <h1 class="title">Pre-Order</h1>
+        <form  id="Form1" method="post">
+            <br>
+            <strong><label id="Usernamelbl">Username :</label></strong>
+            <input type="text" name="" id="UsernameTxt" placeholder="Username">
+            <br>
+            <strong><label id="Emaillbl">Email :</label></strong>
+            <input type="text" name="" id="EmailTxt" placeholder="Email">
+            <br>
+            <strong><label id="Passlbl">Password :</label></strong>
+            <input type="password" name="" id="PassTxt" placeholder="Password" >
+            <br>
+            <strong><label id="Addresslbl">Address :</label></strong>
+            <textarea name="" id="AddressTxtArea" cols="30" rows="10" placeholder="Address"></textarea>
+            <br>
+            <strong><label id="Copieslbl">Number of Copies :</label></strong>
+            <select name="Number of Copies" id="Copies">
+                <option value="">-- Choose Number of Copies --</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+            </select>
+            <br>
+            <strong><label id="Typelbl">Type of the game :</label></strong>
+            <input type="radio" name="type" id="Physiclrb">Physic
+            <input type="radio" name="type" id="Digitallrb">Digital
+            <br>
+            <br>
+            <input type="checkbox" name="" id="agreement">
+            <strong><label id="Termlbl">Agreement to terms and services</label></strong>
+            <br>
+            <br>
+            <label id="Errorlbl"></label>
+            <br>
+            <input type="button" value="Submit" id="SubmitBtn" onclick="ValidateForm();" class="Btn-Styling">
+            <input type="reset" id="ResetBtn" onclick="ResetForm();" class="Btn-Styling">
+            <br>
+            <br>
+        </form>
+    </div>
+    <br>
+    <div class="footer">
+        <h3>Find us on :</h3>
+        <div class="medsos">
+            <a href="https://www.facebook.com/"><img src="Assets/LogoFacebook.png" alt="LogoFB" class="logomedsos"></a>
+            <a href="https://twitter.com/explore"><img src="Assets/LogoTwitter.png" alt="LogoTwitter" class="logomedsos"></a>
+            <a href="https://www.instagram.com/?hl=id"><img src="Assets/instagramLogo.png" alt="LogoIG" class="logomedsos"></a>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="Script.js"></script>
+</body>
+</html>
